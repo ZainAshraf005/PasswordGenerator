@@ -51,7 +51,7 @@ const App = () => {
         <div className="w-full h-screen overflow-hidden relative sm:w-[55%] lg:w-[40%] sm:rounded-2xl bg-primary flex flex-col justify-center gap-4 sm:h-[90%] px-3 py-4">
           <div className=" text-center">password generator</div>
           <div className=" flex flex-col justify-center cursor-pointer">
-            <div className={`absolute left-[50%]  -translate-x-[50%] ${notify?"top-1":"-top-8 hidden"} px-2 py-1 transition-all rounded-xl bg-zinc-400 text-zinc-800`}>copied to clipboard</div>
+            <div className={`absolute left-[50%]  -translate-x-[50%] ${notify?"top-1":"-top-8 hidden"} px-2 py-1 transition-all rounded-xl text-center bg-zinc-400 text-zinc-800`}>copied to clipboard</div>
             <p className="ml-2 text-zinc-600 flex items-center gap-1">RESULT <MdOutlinePassword />
             </p>
             <div className=" flex px-3 justify-between rounded-lg mx-2 m-auto bg-secondary gap-3 ">
