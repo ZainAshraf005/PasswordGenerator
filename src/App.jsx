@@ -37,7 +37,7 @@ const App = () => {
     if (symbol) str += "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 
     for (let i = 1; i <= range; i++) {
-      let char = Number(Math.floor(Math.random() * str.length + 1));
+      let char = Math.floor(Math.random() * str.length + 1);
 
       pass += str.charAt(char);
     }
